@@ -10,7 +10,7 @@ Bem-vindo ao meu jogo inspirado no universo do Detona Ralph! Este projeto simple
 
 ## Como Jogar
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/detona-ralph-game.git`
+1. Clone este repositório: `git clone https://github.com/felipeitap/wreck-it-ralph.git`
 2. Abra o arquivo `index.html` no seu navegador.
 3. Clique na figura do Ralph sempre que ele aparecer na tela.
 4. Acumule pontos antes que o tempo se esgote.
