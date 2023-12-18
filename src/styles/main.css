@@ -1,5 +1,8 @@
 .container{
     display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    background-image: url("../images/wall.png");
 }
 
 .menu{
@@ -10,11 +13,39 @@
     width: 100%;
     background-color: #000;
     color: #fff;
+    border-bottom: 5px solid #daa520;
 }
 
-.menu-score, .menu-time, .lives {
+.menu-score, .menu-time {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
+
+ .lives{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #7fffd4;
+}
+
+.enemy{
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+
